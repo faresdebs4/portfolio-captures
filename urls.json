@@ -1,14 +1,11 @@
 [
  {
-  "name": "ms4_petro",
-  "url": "https://makingsensewithfares.beehiiv.com/p/petrostates-electrostates-and-the-geopolitics-of-electrification",
+  "name": "ms5_grid",
+  "url": "https://makingsensewithfares.beehiiv.com/",
+  "h": 1250,
   "wait": 5000,
-  "js": "(()=>{const og=(document.querySelector('meta[property=\"og:image\"]')||{}).content;const imgs=[...document.querySelectorAll('img')].filter(i=>{const r=i.getBoundingClientRect();return r.width>300&&r.top>150});if(!og||!imgs[0])return;const i=imgs[0];let blk=i;for(let k=0;k<6&&blk.parentElement;k++){const p=blk.parentElement;if(p.getBoundingClientRect().width>=500)break;blk=p}const cover=document.createElement('img');cover.src=og;cover.style.cssText='display:block;width:100%;height:auto;max-width:100%;border-radius:0;margin:0 0 8px 0';blk.parentElement.insertBefore(cover,blk);blk.style.display='none';})()"
- },
- {
-  "name": "ms4_ai",
-  "url": "https://makingsensewithfares.beehiiv.com/p/the-evolving-infrastructure-and-chips-powering-ai",
-  "wait": 5000,
-  "js": "(()=>{const og=(document.querySelector('meta[property=\"og:image\"]')||{}).content;const imgs=[...document.querySelectorAll('img')].filter(i=>{const r=i.getBoundingClientRect();return r.width>300&&r.top>150});if(!og||!imgs[0])return;const i=imgs[0];let blk=i;for(let k=0;k<6&&blk.parentElement;k++){const p=blk.parentElement;if(p.getBoundingClientRect().width>=500)break;blk=p}const cover=document.createElement('img');cover.src=og;cover.style.cssText='display:block;width:100%;height:auto;max-width:100%;border-radius:0;margin:0 0 8px 0';blk.parentElement.insertBefore(cover,blk);blk.style.display='none';})()"
+  "scroll": true,
+  "anchor": "LONG - FORM PUBLICATIONS",
+  "offset": 40
  }
 ]
