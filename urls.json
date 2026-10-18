@@ -1,11 +1,11 @@
 [
  {
-  "name": "ms5_grid",
+  "name": "ms5_home_m",
   "url": "https://makingsensewithfares.beehiiv.com/",
-  "h": 1250,
-  "wait": 5000,
-  "scroll": true,
-  "anchor": "LONG - FORM PUBLICATIONS",
-  "offset": 40
+  "w": 390,
+  "h": 844,
+  "dpr": 3,
+  "mobile": true,
+  "wait": 5000
  }
 ]
