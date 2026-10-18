@@ -13,6 +13,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
+      - run: |
+          echo ttf-mscorefonts-installer msttcorefonts/accepted-mscorefonts-eula select true | sudo debconf-set-selections
+          sudo apt-get update -y && sudo apt-get install -y ttf-mscorefonts-installer fonts-liberation fontconfig
+          sudo fc-cache -f
       - run: npm i playwright@1.47.2 && npx playwright install --with-deps chromium
       - run: node capture.mjs
       - run: |
@@ -20,4 +24,5 @@ jobs:
           git config user.email github-actions@users.noreply.github.com
           git add shots
           git commit -m "captures" || echo nothing
+          git pull --rebase || true
           git push
