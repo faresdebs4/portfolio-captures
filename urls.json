@@ -1,147 +1,65 @@
 [
  {
-  "name": "sn_home",
-  "url": "https://www.selfnourishd.com/",
-  "wait": 4000
- },
- {
-  "name": "sn_home_full",
-  "url": "https://www.selfnourishd.com/",
-  "full": true,
-  "wait": 4000
- },
- {
-  "name": "sn_library",
-  "url": "https://www.selfnourishd.com/library",
-  "wait": 4000
- },
- {
-  "name": "sn_tools",
-  "url": "https://www.selfnourishd.com/tools",
-  "wait": 4000
- },
- {
-  "name": "sn_decoder",
-  "url": "https://www.selfnourishd.com/tools/decoder",
-  "wait": 4000
- },
- {
-  "name": "sn_cycle",
-  "url": "https://www.selfnourishd.com/tools/cycle-guide",
-  "wait": 4000
- },
- {
-  "name": "sn_shop",
-  "url": "https://www.selfnourishd.com/shop",
-  "wait": 4000
- },
- {
-  "name": "sn_tables",
-  "url": "https://www.selfnourishd.com/tables",
-  "wait": 4000
- },
- {
-  "name": "sn_about",
-  "url": "https://www.selfnourishd.com/about",
-  "wait": 4000
- },
- {
-  "name": "sn_home_m",
-  "url": "https://www.selfnourishd.com/",
-  "w": 390,
-  "h": 844,
-  "dpr": 3,
-  "mobile": true,
-  "wait": 4000
- },
- {
-  "name": "sn_library_m",
-  "url": "https://www.selfnourishd.com/library",
-  "w": 390,
-  "h": 844,
-  "dpr": 3,
-  "mobile": true,
-  "wait": 4000
- },
- {
-  "name": "ms_home",
+  "name": "ms2_hero",
   "url": "https://makingsensewithfares.beehiiv.com/",
   "wait": 5000
  },
  {
-  "name": "ms_home_full",
+  "name": "ms2_grid",
   "url": "https://makingsensewithfares.beehiiv.com/",
-  "full": true,
-  "wait": 5000
- },
- {
-  "name": "ms_essays",
-  "url": "https://makingsensewithfares.beehiiv.com/",
-  "scrollTo": 900,
   "wait": 5000,
-  "scroll": true
+  "scroll": true,
+  "anchor": "LONG - FORM PUBLICATIONS",
+  "offset": 90
  },
  {
-  "name": "ms_essay1",
+  "name": "ms2_grid_b",
+  "url": "https://makingsensewithfares.beehiiv.com/",
+  "wait": 5000,
+  "scroll": true,
+  "anchor": "Full Archive",
+  "offset": 140
+ },
+ {
+  "name": "ms2_books",
+  "url": "https://makingsensewithfares.beehiiv.com/",
+  "wait": 5000,
+  "scroll": true,
+  "anchor": "BOOK REVIEWS",
+  "offset": 90
+ },
+ {
+  "name": "ms2_petro",
   "url": "https://makingsensewithfares.beehiiv.com/p/petrostates-electrostates-and-the-geopolitics-of-electrification",
   "wait": 5000
  },
  {
-  "name": "ms_essay2",
+  "name": "ms2_petro_s",
+  "url": "https://makingsensewithfares.beehiiv.com/p/petrostates-electrostates-and-the-geopolitics-of-electrification",
+  "wait": 5000,
+  "scrollTo": 260
+ },
+ {
+  "name": "ms2_ai",
+  "url": "https://makingsensewithfares.beehiiv.com/p/the-evolving-infrastructure-and-chips-powering-ai",
+  "wait": 5000
+ },
+ {
+  "name": "ms2_ai_s",
+  "url": "https://makingsensewithfares.beehiiv.com/p/the-evolving-infrastructure-and-chips-powering-ai",
+  "wait": 5000,
+  "scrollTo": 260
+ },
+ {
+  "name": "ms2_iraq",
   "url": "https://makingsensewithfares.beehiiv.com/p/iraq-and-syria-at-a-turning-point",
   "wait": 5000
  },
  {
-  "name": "ms_archive",
-  "url": "https://makingsensewithfares.beehiiv.com/archive",
-  "wait": 5000
- },
- {
-  "name": "ms_home_m",
+  "name": "ms2_full",
   "url": "https://makingsensewithfares.beehiiv.com/",
-  "w": 390,
-  "h": 844,
-  "dpr": 3,
-  "mobile": true,
-  "wait": 5000
- },
- {
-  "name": "nx_home",
-  "url": "https://nexworkme.com/",
-  "wait": 5000
- },
- {
-  "name": "nx_home_full",
-  "url": "https://nexworkme.com/",
+  "wait": 5000,
   "full": true,
-  "wait": 5000
- },
- {
-  "name": "nx_home_m",
-  "url": "https://nexworkme.com/",
-  "w": 390,
-  "h": 844,
-  "dpr": 3,
-  "mobile": true,
-  "wait": 5000
- },
- {
-  "name": "lv_home",
-  "url": "https://livonhealth.app/",
-  "wait": 2500
- },
- {
-  "name": "lv_home_m",
-  "url": "https://livonhealth.app/",
-  "w": 390,
-  "h": 844,
-  "dpr": 3,
-  "mobile": true,
-  "wait": 2500
- },
- {
-  "name": "crm_login",
-  "url": "https://textile-crm-iota.vercel.app/",
-  "wait": 4000
+  "dpr": 1
  }
 ]

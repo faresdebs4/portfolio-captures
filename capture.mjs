@@ -22,6 +22,14 @@ for (const j of jobs) {
       await page.evaluate(() => window.scrollTo(0, 0)); await page.waitForTimeout(800);
     }
     for (const c of (j.clicks || [])) { try { await page.click(c, { timeout: 4000 }); await page.waitForTimeout(1500); } catch (e) { console.log('click fail', c); } }
+    if (j.anchor) {
+      await page.evaluate(([t, off]) => {
+        const els = [...document.querySelectorAll('h1,h2,h3,h4,h5,p,span,div,a,strong')];
+        const el = els.find(e => e.children.length < 4 && e.textContent.trim().toUpperCase().startsWith(t.toUpperCase()));
+        if (el) window.scrollTo(0, el.getBoundingClientRect().top + window.scrollY - off);
+      }, [j.anchor, j.offset || 60]);
+      await page.waitForTimeout(2500);
+    }
     if (j.scrollTo) { await page.evaluate(v => window.scrollTo(0, v), j.scrollTo); await page.waitForTimeout(1200); }
     if (j.css) await page.addStyleTag({ content: j.css });
     await page.screenshot({ path: `shots/${j.name}.png`, fullPage: !!j.full });
