@@ -1,30 +1,14 @@
 [
  {
-  "name": "ms3_books",
-  "url": "https://makingsensewithfares.beehiiv.com/",
-  "wait": 5000,
-  "scroll": true,
-  "anchor": "Full List of Book Reviews",
-  "offset": 150
- },
- {
-  "name": "ms3_books_b",
-  "url": "https://makingsensewithfares.beehiiv.com/",
-  "wait": 5000,
-  "scroll": true,
-  "anchor": "BOOK REVIEWS ↓",
-  "offset": 90
- },
- {
-  "name": "ms3_petro",
+  "name": "ms4_petro",
   "url": "https://makingsensewithfares.beehiiv.com/p/petrostates-electrostates-and-the-geopolitics-of-electrification",
   "wait": 5000,
-  "js": "(()=>{const og=(document.querySelector('meta[property=\"og:image\"]')||{}).content;const imgs=[...document.querySelectorAll('img')].filter(i=>{const r=i.getBoundingClientRect();return r.width>300&&r.top>150});if(og&&imgs[0]){const i=imgs[0];i.removeAttribute('srcset');i.src=og;i.style.width='100%';i.style.height='auto';i.style.maxWidth='100%';i.style.objectFit='cover'}window.__og=og})()"
+  "js": "(()=>{const og=(document.querySelector('meta[property=\"og:image\"]')||{}).content;const imgs=[...document.querySelectorAll('img')].filter(i=>{const r=i.getBoundingClientRect();return r.width>300&&r.top>150});if(!og||!imgs[0])return;const i=imgs[0];let blk=i;for(let k=0;k<6&&blk.parentElement;k++){const p=blk.parentElement;if(p.getBoundingClientRect().width>=500)break;blk=p}const cover=document.createElement('img');cover.src=og;cover.style.cssText='display:block;width:100%;height:auto;max-width:100%;border-radius:0;margin:0 0 8px 0';blk.parentElement.insertBefore(cover,blk);blk.style.display='none';})()"
  },
  {
-  "name": "ms3_ai",
+  "name": "ms4_ai",
   "url": "https://makingsensewithfares.beehiiv.com/p/the-evolving-infrastructure-and-chips-powering-ai",
   "wait": 5000,
-  "js": "(()=>{const og=(document.querySelector('meta[property=\"og:image\"]')||{}).content;const imgs=[...document.querySelectorAll('img')].filter(i=>{const r=i.getBoundingClientRect();return r.width>300&&r.top>150});if(og&&imgs[0]){const i=imgs[0];i.removeAttribute('srcset');i.src=og;i.style.width='100%';i.style.height='auto';i.style.maxWidth='100%';i.style.objectFit='cover'}window.__og=og})()"
+  "js": "(()=>{const og=(document.querySelector('meta[property=\"og:image\"]')||{}).content;const imgs=[...document.querySelectorAll('img')].filter(i=>{const r=i.getBoundingClientRect();return r.width>300&&r.top>150});if(!og||!imgs[0])return;const i=imgs[0];let blk=i;for(let k=0;k<6&&blk.parentElement;k++){const p=blk.parentElement;if(p.getBoundingClientRect().width>=500)break;blk=p}const cover=document.createElement('img');cover.src=og;cover.style.cssText='display:block;width:100%;height:auto;max-width:100%;border-radius:0;margin:0 0 8px 0';blk.parentElement.insertBefore(cover,blk);blk.style.display='none';})()"
  }
 ]
