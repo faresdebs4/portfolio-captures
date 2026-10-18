@@ -1,65 +1,30 @@
 [
  {
-  "name": "ms2_hero",
-  "url": "https://makingsensewithfares.beehiiv.com/",
-  "wait": 5000
- },
- {
-  "name": "ms2_grid",
+  "name": "ms3_books",
   "url": "https://makingsensewithfares.beehiiv.com/",
   "wait": 5000,
   "scroll": true,
-  "anchor": "LONG - FORM PUBLICATIONS",
+  "anchor": "Full List of Book Reviews",
+  "offset": 150
+ },
+ {
+  "name": "ms3_books_b",
+  "url": "https://makingsensewithfares.beehiiv.com/",
+  "wait": 5000,
+  "scroll": true,
+  "anchor": "BOOK REVIEWS ↓",
   "offset": 90
  },
  {
-  "name": "ms2_grid_b",
-  "url": "https://makingsensewithfares.beehiiv.com/",
-  "wait": 5000,
-  "scroll": true,
-  "anchor": "Full Archive",
-  "offset": 140
- },
- {
-  "name": "ms2_books",
-  "url": "https://makingsensewithfares.beehiiv.com/",
-  "wait": 5000,
-  "scroll": true,
-  "anchor": "BOOK REVIEWS",
-  "offset": 90
- },
- {
-  "name": "ms2_petro",
-  "url": "https://makingsensewithfares.beehiiv.com/p/petrostates-electrostates-and-the-geopolitics-of-electrification",
-  "wait": 5000
- },
- {
-  "name": "ms2_petro_s",
+  "name": "ms3_petro",
   "url": "https://makingsensewithfares.beehiiv.com/p/petrostates-electrostates-and-the-geopolitics-of-electrification",
   "wait": 5000,
-  "scrollTo": 260
+  "js": "(()=>{const og=(document.querySelector('meta[property=\"og:image\"]')||{}).content;const imgs=[...document.querySelectorAll('img')].filter(i=>{const r=i.getBoundingClientRect();return r.width>300&&r.top>150});if(og&&imgs[0]){const i=imgs[0];i.removeAttribute('srcset');i.src=og;i.style.width='100%';i.style.height='auto';i.style.maxWidth='100%';i.style.objectFit='cover'}window.__og=og})()"
  },
  {
-  "name": "ms2_ai",
-  "url": "https://makingsensewithfares.beehiiv.com/p/the-evolving-infrastructure-and-chips-powering-ai",
-  "wait": 5000
- },
- {
-  "name": "ms2_ai_s",
+  "name": "ms3_ai",
   "url": "https://makingsensewithfares.beehiiv.com/p/the-evolving-infrastructure-and-chips-powering-ai",
   "wait": 5000,
-  "scrollTo": 260
- },
- {
-  "name": "ms2_iraq",
-  "url": "https://makingsensewithfares.beehiiv.com/p/iraq-and-syria-at-a-turning-point",
-  "wait": 5000
- },
- {
-  "name": "ms2_full",
-  "url": "https://makingsensewithfares.beehiiv.com/",
-  "wait": 5000,
-  "full": true,
-  "dpr": 1
+  "js": "(()=>{const og=(document.querySelector('meta[property=\"og:image\"]')||{}).content;const imgs=[...document.querySelectorAll('img')].filter(i=>{const r=i.getBoundingClientRect();return r.width>300&&r.top>150});if(og&&imgs[0]){const i=imgs[0];i.removeAttribute('srcset');i.src=og;i.style.width='100%';i.style.height='auto';i.style.maxWidth='100%';i.style.objectFit='cover'}window.__og=og})()"
  }
 ]

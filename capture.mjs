@@ -30,6 +30,7 @@ for (const j of jobs) {
       }, [j.anchor, j.offset || 60]);
       await page.waitForTimeout(2500);
     }
+    if (j.js) { await page.evaluate(j.js); await page.waitForTimeout(3000); }
     if (j.scrollTo) { await page.evaluate(v => window.scrollTo(0, v), j.scrollTo); await page.waitForTimeout(1200); }
     if (j.css) await page.addStyleTag({ content: j.css });
     await page.screenshot({ path: `shots/${j.name}.png`, fullPage: !!j.full });
